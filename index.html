@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="CSS/Style.CSS">
+</head>
+<body>
+    <header>
+        <img src="Assets/logoHydro.png" alt="Logo" class="logo">
+        <div class="nav-bar">
+            <div class="nav-item">Home</div>
+            <div class="nav-item">Our Profile</div>
+            <div class="nav-item">Portfolio</div>
+            <div class="nav-item">Message Us</div>
+        </div>
+    </header>
+    
+    <div id="hero-section" class="hero">
+        <img src="Assets/crop_background.jpg" alt="background" class="back">
+        <h1>Hydro Coco</h1>
+        <h2>"Air Kelapa Baik Untuk Tubuhmu"</h2>
+        <p>Hydro Coco terbuat dari 100% Air Kelapa Asli tanpa pengawet, tanpa pemanis buatan, aman untuk dikonsumsi setiap harinya sebagai wujud komitmen kami untuk selalu dapat menjaga kesehatan</p>
+    </div>
+
+    <div id="headquarters-section">
+        <h1>Our Headquarters</h1>
+        <div class="wrapper">
+            <div class="headquarters-image-container">
+                <div class="headquarters-image">
+                    <img src="Assets/headoffice.png" alt="head-1" class="head1">
+                </div>
+                <p>Jakarta</p>
+            </div>
+            <div class="headquarters-image-container">
+                <div class="headquarters-image">
+                    <img src="Assets/bekasi.PNG" alt="head-1" class="head2">
+                </div>
+                <p>Bekasi</p>
+            </div>
+            <div class="headquarters-image-container">
+                <div class="headquarters-image">
+                    <img src="Assets/bogor.jpg" alt="head-1" class="head3">
+                </div>
+                <p>Bogor</p>
+            </div>
+        </div>
+        
+    </div>
+    <div id="message-us-section" class="message-us">
+        <h1>Message Us</h1>
+        <form autocomplete="off">
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td><input type="date" name="Tanggal-lahir"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+                        <input type="radio" name="gender" value="Perempuan"> Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pesan</td>
+                    <td>:</td>
+                    <td><textarea type="textarea" name="Pesan"></textarea>
+                </tr>
+            </table>
+            <button id="kirim">Kirim</button>
+        </form>
+    </div>
+    <div></div>
+    <footer style="text-align: right;">Created by UALI</footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

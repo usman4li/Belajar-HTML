@@ -1,0 +1,395 @@
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    border: 1px solid #ffa439;
+    border-radius: 5px;
+}
+
+.nav-item {
+    border-right: 1px solid #ffa439;
+    padding: 5px 2em;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    color: red;
+    font-size: 4mm;
+}
+
+.nav-item:hover {
+    background: #ffa439;
+}
+
+.nav-bar:last-child {
+    border-right: none;
+}
+
+.logo {
+    height: 5em;
+    width: 5em;
+}
+
+.our-company {
+    text-align: center;
+}
+
+.our-company h2 {
+    color: red;
+    font-family:sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.our-company p {
+    font-size: 16px;
+    color: #ffa439;
+    font-weight: 500;
+    line-height: 18px;
+    font-family:sans-serif;
+}
+
+.background1{
+    height: 100%;
+    width: 100%;
+}
+
+.baris-judul {
+    font-size: 40px;
+    font-weight: 800;
+    font-family:sans-serif;
+    padding-bottom: 2px;
+    color: #ffa439;
+}
+
+.cover1 h1 {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 12mm;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fontoatsy {
+    height: 50px;
+    margin: -12px 5px;
+    padding-bottom: 0px;
+}
+
+
+.accordion {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    background: red;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ffa439;
+    color: #f3f3f3;
+    cursor: pointer;
+    text-align: left;
+}
+
+.accordion-header.active {
+    background-color: red;
+}
+
+.accordion-header.active i {
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.accordion-body {
+    padding: 0 1rem;
+    background-color: #f3f3f3;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.accordion-body.active {
+    max-height: 10rem;
+    padding: 1rem;
+}
+
+.jeda {
+    padding: 5px 5px;
+}
+
+.paragraf {
+    text-align: justify;
+    width: 75%;
+    font-size: 16px;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+.banmas {
+    padding-bottom: 3em;
+}
+
+footer {
+    display: flex;
+    border: 2px solid red;
+    background-color: red;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5spx 0px;
+}
+
+.logo2 {
+    height: 5em;
+    width: 5em;
+    margin-left: 1%;
+}
+
+.dibuat {
+    color: white;
+    font-size: large;
+    font-family: serif;
+    margin-right: 2%;
+}
+
+.latar {
+    height: 100%;
+    width: 100%;
+
+}
+
+.font-oatsy {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    height: auto;
+    width: 20%;
+}
+
+h1 {
+    position: absolute;
+    left: 48%;
+    top: 11%;
+    height: auto;
+    width: 50%;
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.row-container-center {
+    width: 50%;
+}
+
+.foto-brosur1 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.merah {
+    width: 25%;
+}
+
+.biru-tua {
+    width: 24%;
+}
+
+.kuning {
+    width: 23%;
+}
+
+.purple {
+    width: 23%;
+}
+
+.tulisan-brosur1, .baris-container2 {
+    display: block;
+    text-align: right;
+    width: 100%;
+}
+
+.row-container-kolom {
+    align-items: center;
+    text-align: right;
+    width: 50%;
+}
+
+.sub-baris1 h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #ffa439;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub-baris2 h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #ea0028;
+    font-size: 50px;
+    line-height: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.tombol1 {
+    width: 30%;
+    color: red;
+    border: 2px solid red;
+    background: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.klik-lihat {
+    width: 100%;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.klik-lihat:hover {
+    background: red;
+    margin-bottom: -3px;
+}
+
+.row-container2 {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.row-container-center2 {
+    width: 50%;
+    align-items: center;
+    text-align: left;
+}
+
+.foto-brosur2 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.green {
+    width: 25%;
+}
+
+.yellow {
+    width: 24%;
+}
+
+.row-container-kolom2 {
+    align-items: center;
+    text-align: right;
+    width: 50%;
+    right: 2em;
+}
+
+.judul-pesan p{
+    align-items: center;
+    text-align: center;
+    margin: 1px;
+    color: #ffa439;
+}
+
+#pesan {
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    margin: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
+
+.image-contactus {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.tabel-global {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.tabel-pesan {
+    width: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.judul-kontak {
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.tabel-email {
+    display: flex;
+}
+
+.icon-email {
+    width: 10%;
+    height: 10%;
+    margin: 0px;
+    padding: 0px 0px;
+    border: 0px;
+}
+
+.form-tabel {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    align-items: center;
+}
+
+.kotak {
+    width: 7cm;
+    height: 5cm
+}
+
+td {
+    padding-top: 0px;
+    margin-top: 0px;
+    vertical-align: top;
+}
+
+#kirim {
+    margin: 5px;
+    padding: 10px 10px;
+}
